@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+
+<body bgcolor="lightcyan">
+	<center><h1>FORM CONTROL</h1></center>
+
+	<center><h4>
+		Envia tu solicitud de manera sencilla<br>
+		Solo llene los siguientes campos
+	</h4></center>
+
+<br>
+<br>
+<center>
+	
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Introduce tu correo electronico</label><br>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+<br>
+
+<label for="exampleDataList" class="form-label">Puesto solicitado</label><br>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+<datalist id="datalistOptions">
+  <option value="Supervisor">
+  <option value="Tecnico Profesional">
+  <option value="Tecnico informativo">
+  <option value="Tecnico de soporte en PCs">
+  <option value="Tecnico de soporte en Usuarios">
+</datalist>
+
+<br>
+<br>
+
+<div class="mb-3">
+  <label for="formFileMultiple" class="form-label">Suba los archivos solicitados *PDF*</label><br>
+  <input class="form-control" type="file" id="formFileMultiple" multiple>
+</div>
+
+<br>
+
+<div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Cree una contraseña</label>
+  </div>
+  <div class="col-auto">
+    <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+  </div>
+ </div>
+
+<div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Repita la contraseña</label>
+  </div>
+  <div class="col-auto">
+    <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+  </div>
+</div>
+<br>
+<div class="col-auto">
+    <span id="passwordHelpInline" class="form-text">
+      <strong>Debe contener de 8 - 20 caracteres y/o numeros</strong>
+    </span>
+  </div>
+
+<br>
+
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Escriba un comentario (opcional)</label><br>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+</div>
+
+<br>
+<br>
+
+<input type="submit" name="ENVIAR" value="ENVIAR" style="height: 40px; width:70px">
+
+<br>
+<br>
+<br>
+
+<center><input class="form-control" type="text" value="Le damos las gracias por considerarnos para su solicitud"
+aria-label="readonly input example" readonly style="height: 80px; width: 340px"></center>
+
+</center>
+</body>
+</html>
